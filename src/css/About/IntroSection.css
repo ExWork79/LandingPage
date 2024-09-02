@@ -1,0 +1,43 @@
+.intro-section{
+    margin: 0 94px;
+    margin-bottom: 70px;
+    background-color: #FFFAF5;
+    padding: 60px 85px;
+    border-radius: 10px;
+    h1{
+        font-size: 6rem;
+        line-height: 1;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        margin: 0;
+    }
+    .intro-infor{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 6.5rem;
+        .item-2{
+            font-size: 1.2rem;
+            button{
+                font-size: small;
+            }
+        }
+    }
+    .value-infor{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+        grid-column-gap: 5%;
+        .item-1{
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            background-color: #E7F2ED;
+            align-items: center;
+            padding: 30px 60px;
+            img{
+                width: 36px;
+                height: 37px;
+            }
+        }
+    }
+}

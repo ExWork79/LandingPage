@@ -1,0 +1,71 @@
+.team-section{
+    margin: 0 175px;
+
+    h1{
+        font-size: 4rem;
+        line-height: 1;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        margin-right: 10px;
+    }
+    .team-do-infor{
+        margin-top: 94px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 2rem;
+        gap: 164px;
+        align-items: center;
+        .item-1{
+            img {
+                border-radius: 10px;
+                width: 563px;
+                height: 597px;
+                mask:
+                linear-gradient(#000 0 0),
+                linear-gradient(135deg, #000 50%, #0000 0) content-box 
+                0% 0%  / 200% 200% no-repeat;
+                mask-composite: exclude, add;
+                transition: 2s ease-out;
+                
+            }      
+        }
+        .item-2{
+            width: 467px;
+            h2{
+                animation-delay: 2s;
+            }
+        }
+    }
+    .team-infor{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-bottom: 6.5rem;
+        gap: 164px;
+        align-items: center;
+        img {
+            border-radius: 10px;
+            width: 563px;
+            height: 597px;
+            mask:
+            linear-gradient(#000 0 0),
+            linear-gradient(135deg, #000 50%, #0000 0) content-box 
+            0% 0%  / 200% 200% no-repeat;
+            mask-composite: exclude, add;
+            transition: 2s ease-out;
+        }
+        .item-2{
+            width: 467px;
+            h2{
+                animation-delay: 2s;
+            }
+        }
+    }
+}
+
+@keyframes clip-fade {
+    100% {
+        mask-position: 100% 100%;
+    }
+  }
+
+@keyframes l1 {from{opacity: 0;} to{opacity: 1}}
